@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+
 import PrintIcon from './print-icon.png';
 import ChocoPizza from './choco-pizza.png';
+import ingredients from './ingredients.js';
+import IngredientsList from './IngredientsList.js';
 
 class Body extends Component {
     render() { 
@@ -24,6 +27,11 @@ class Body extends Component {
             <p>
             Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thickin for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving. 
             </p>
+            <div className='ingredient-panel'>
+                {ingredients.map(item => {
+                    return <IngredientsList key={item.id} amount={item.amount} item={item.item} />
+                })}
+            </div>
         </>
 
          );
