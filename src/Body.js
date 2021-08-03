@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import PrintIcon from './print-icon.png';
 import ChocoPizza from './choco-pizza.png';
-import ingredients from './ingredients.js';
+import ingredients from './Ingredients.js';
 import IngredientsList from './IngredientsList.js';
 
 class Body extends Component {
