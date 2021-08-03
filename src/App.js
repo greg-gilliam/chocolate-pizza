@@ -4,7 +4,7 @@ import Header from './Header.js';
 import Body from './Body.js';
 import Recipe from './Recipe.js';
 import Author from './Author.js';
-// import Footer from './Footer.js';
+import Footer from './Footer.js';
 
 class App extends Component {
   render() { 
@@ -14,7 +14,7 @@ class App extends Component {
       <Body />
       <Recipe />
       <Author />
-      {/* <Footer/> */}
+      <Footer/>
       </>
        );
   }
