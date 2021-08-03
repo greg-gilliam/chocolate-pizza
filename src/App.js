@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './Header.js';
-import Social from './Header.js';
-
-// import Body from './Body.js';
+import Body from './Body.js';
 // import Recipe from './Recipe.js';
 // import Footer from './Footer.js';
 
@@ -12,9 +10,9 @@ class App extends Component {
     return ( 
       <>
       <Header />
-      {/* <Body />
-      <Recipe />
-      <Footer/> */}
+      <Body />
+      {/* <Recipe /> */}
+      {/* <Footer/> */}
       </>
        );
   }

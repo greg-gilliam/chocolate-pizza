@@ -1,7 +1,7 @@
-.header {
+header {
   flex-direction: column;
 }
 
-#social {
+#social img {
   justify-content: flex-end;
 }
