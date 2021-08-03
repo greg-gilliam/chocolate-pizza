@@ -8,6 +8,7 @@ import FlicIcon from './flic-icon.png';
 import PintIcon from './pint-icon.png';
 import RssIcon from './rss-icon.png';
 import MailIcon from './mail-icon.png';
+import './Header.css';
 
 class Header extends Component {
     render() { 

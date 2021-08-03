@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Header from './Header.js';
 import Body from './Body.js';
-// import Recipe from './Recipe.js';
+import Recipe from './Recipe.js';
+import Author from './Author.js';
 // import Footer from './Footer.js';
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
       <>
       <Header />
       <Body />
-      {/* <Recipe /> */}
+      <Recipe />
+      <Author />
       {/* <Footer/> */}
       </>
        );
