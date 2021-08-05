@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class IngredientsList extends Component {
+class IngredientItem extends Component {
     render() { 
         return ( 
         <label>
@@ -12,4 +12,4 @@ class IngredientsList extends Component {
     }
 }
  
-export default IngredientsList;
+export default IngredientItem;

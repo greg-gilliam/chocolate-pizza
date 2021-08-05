@@ -1,4 +1,9 @@
+#delicious img {
+  display: flex;
+  justify-content: flex-start;
+}
 #social img {
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }

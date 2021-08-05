@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import PrintIcon from './print-icon.png';
 import ChocoPizza from './choco-pizza.png';
 import ingredients from './Ingredients.js';
-import IngredientsList from './IngredientsList.js';
+import IngredientItem from './IngredientItem.js';
 
 class Body extends Component {
     render() { 
@@ -29,7 +29,7 @@ class Body extends Component {
             </p>
             <div className='ingredient-panel'>
                 {ingredients.map(item => {
-                    return <IngredientsList key={item.id} amount={item.amount} item={item.item} />
+                    return <IngredientItem key={item.id} amount={item.amount} item={item.item} />
                 })}
             </div>
         </>

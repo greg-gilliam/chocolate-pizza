@@ -13,12 +13,12 @@ import './Header.css';
 class Header extends Component {
     render() { 
         return (
-        <>
+        <div>
             <div id="delicious">
                 <img src={DeliciousLogo} alt='logo' />
             </div> 
             <div id="social">
-            <ul>
+            <p>
                 <img src={FbIcon} alt='FB' />
                 <img src={TwitIcon} alt='Twitter' />
                 <img src={GoogleIcon} alt='Google+' />
@@ -27,9 +27,9 @@ class Header extends Component {
                 <img src={PintIcon} alt='Pinterest' />
                 <img src={RssIcon} alt='RSS' />
                 <img src={MailIcon} alt='Email' />
-            </ul>
+            </p>
             </div>
-        </>
+        </div>
 
         );
     }
