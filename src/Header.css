@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
 }
-#social img {
+#social {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
