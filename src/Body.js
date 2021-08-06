@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import PrintIcon from './print-icon.png';
-import ChocoPizza from './choco-pizza.png';
-import ingredients from './Ingredients.js';
-import IngredientItem from './IngredientItem.js';
+// import ChocoPizza from './choco-pizza.png';
+// import ingredients from './Ingredients.js';
+// import IngredientItem from './IngredientItem.js';
 
 class Body extends Component {
     render() { 
@@ -16,8 +16,7 @@ class Body extends Component {
             <div id="print">
                 <img src={PrintIcon} alt='Print' />
                 <h3>PRINT</h3>
-            </div>
-                 <img src={ChocoPizza} alt='Chocolate Pizza' />  
+            </div> 
             <p>
                 For the fig-swirl: melt butter over medium heat in a saucepan. Add Brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
             </p>
